@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { logoutUser } from "../../actions/authActions";
+import Altar from "../altar/Altar";
 
 class Nave extends Component {
   onLogoutClick = e => {
@@ -22,6 +23,7 @@ class Nave extends Component {
                 The next service will take place on Sunday 12 April at 10:00 am.
               </p>
             </h4>
+            <Altar />
             <button
               style={{
                 width: "180px",
