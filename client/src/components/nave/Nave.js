@@ -20,7 +20,7 @@ class Nave extends Component {
             <h4>
               <b>Bless You,</b> {user.name.split(" ")[0]}
               <p className="flow-text grey-text text-darken-1">
-                The next service will take place on Sunday 12 April at 10:00 am.
+                The next service will take place on Sunday, April 12.
               </p>
             </h4>
             <Altar />
