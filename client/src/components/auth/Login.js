@@ -23,6 +23,7 @@ class Login extends Component {
   }
 
   componentWillReceiveProps(nextProps) {
+    console.log(nextProps);
     if (nextProps.auth.isAuthenticated) {
       this.props.history.push("/nave");
     }
@@ -54,12 +55,13 @@ class Login extends Component {
 
     return (
       <div className="container">
-        <div style={{ marginTop: "4rem" }} className="row">
+        <div
+        style={{
+          marginTop: "4rem",
+          textAlign: "center"
+        }}
+        className="row">
           <div className="col s8 offset-s2">
-            <Link to="/" className="btn-flat waves-effect">
-              <i className="material-icons left">keyboard_backspace</i> Back to
-              reception
-            </Link>
             <div className="col s12" style={{ paddingLeft: "11.250px" }}>
               <h4>
                 Come in and <b>Pray</b>
@@ -112,7 +114,7 @@ class Login extends Component {
                     marginTop: "1rem"
                   }}
                   type="submit"
-                  className="btn btn-large waves-effect waves-light hoverable yellow accent-3 black-text"
+                  className="btn btn-large waves-effect waves-light hoverable churchy-yellow accent-3 black-text"
                 >
                   Pray
                 </button>

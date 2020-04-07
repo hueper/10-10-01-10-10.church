@@ -18,3 +18,17 @@ input.invalid[type="password"]:not(.browser-default) {
   border-bottom: 1px solid #000 !important;
   box-shadow: 0 1px 0 0 #000 !important;
 }
+.audiobutton{
+  width: 30px;
+  height: auto;
+  display: block;
+  margin: 5rem auto;
+}
+
+a.churchy-yellow, a.churchy-yellow:hover  {
+  background-color: rgb(253, 223, 0) !important;
+}
+
+.churchy-yellow.accent-3 {
+    background-color: rgb(253, 223, 0) !important;
+}

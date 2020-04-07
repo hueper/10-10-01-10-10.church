@@ -2,7 +2,7 @@ import axios from "axios";
 import setAuthToken from "../utils/setAuthToken";
 import jwt_decode from "jwt-decode";
 
-import { GET_ERRORS, SET_CURRENT_USER, USER_LOADING } from "./types";
+import { GET_ERRORS, SET_CURRENT_USER, USER_LOADING, TOGGLE_STREAM } from "./types";
 
 // Register User
 export const registerUser = (userData, history) => dispatch => {
@@ -66,3 +66,11 @@ export const logoutUser = () => dispatch => {
   // Set current user to empty object {} which will set isAuthenticated to false
   dispatch(setCurrentUser({}));
 };
+
+// Toggle stream
+export function toggleStream(payload) {
+  return {
+    type: TOGGLE_STREAM,
+    playing: payload
+  };
+}
