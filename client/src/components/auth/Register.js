@@ -62,7 +62,7 @@ class Register extends Component {
           <div className="col s8 offset-s2">
             <div className="col s12" style={{ paddingLeft: "11.250px" }}>
               <h4>
-                <b>Convert</b> and start praying.
+                <b>Convert</b> and start Praying.
               </h4>
               <p className="grey-text text-darken-1">
                 Already converted? <Link to="/login" style={{ color: 'black' }}>Pray.</Link>
@@ -134,7 +134,7 @@ class Register extends Component {
                     marginTop: "1rem"
                   }}
                   type="submit"
-                  className="btn btn-large waves-effect waves-light hoverable black accent-3"
+                  className="btn btn-large waves-effect waves-light hoverable churchy-yellow accent-3 black-text"
                 >
                   Convert
                 </button>

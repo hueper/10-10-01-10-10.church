@@ -20,7 +20,7 @@ class Nave extends Component {
             <h4>
               <b>Bless You,</b> {user.name.split(" ")[0]}
               <p className="flow-text grey-text text-darken-1">
-                The next service will take place on Sunday, April 12.
+                The next service will take place on Sunday, April 12 at 2 pm.
               </p>
             </h4>
             <Altar />
@@ -32,7 +32,7 @@ class Nave extends Component {
                 marginTop: "1rem"
               }}
               onClick={this.onLogoutClick}
-              className="btn btn-large waves-effect waves-light hoverable black accent-3"
+              className="btn btn-large waves-effect grey lighten-4 accent-3 grey-text text-darken-1"
             >
               End Service.
             </button>

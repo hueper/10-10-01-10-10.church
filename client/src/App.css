@@ -32,3 +32,66 @@ a.churchy-yellow, a.churchy-yellow:hover  {
 .churchy-yellow.accent-3 {
     background-color: rgb(253, 223, 0) !important;
 }
+
+
+/* START MARQUEE */
+.marquee {
+  font-family: "Courier";
+  /* font-style: italic; */
+  width: 98%;
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.marquee div {
+  display: inline-block;
+  padding-left: 100%;
+  will-change: transform;
+  /* show the marquee just outside the paragraph */
+  animation: marquee 100s linear infinite;
+}
+
+.marquee div:hover {
+  animation-play-state: paused
+}
+
+
+/* Make it move */
+
+@keyframes marquee {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
+
+/* Respect user preferences about animations */
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee {
+    white-space: normal
+  }
+  .marquee div {
+    animation: none;
+    padding-left: 0;
+  }
+}
+/* END MARQUEE */
+
+
+/* START BLINKING */
+.blinky {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+/* END BLINKING */
