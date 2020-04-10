@@ -114,7 +114,7 @@ class Login extends Component {
                     marginTop: "1rem"
                   }}
                   type="submit"
-                  className="btn btn-large waves-effect waves-light hoverable churchy-yellow accent-3 black-text"
+                  className="btn btn-large waves-effect waves-light hoverable accent-3 churchy-yellow grey-text text-darken-3"
                 >
                   Pray
                 </button>
