@@ -33,7 +33,7 @@ class ConnectedAltar extends Component {
       <div>
         <AudioButton/>
         <audio id="audio" ref={(audio) => {this.audioRef = audio}}>
-          <source src="http://10-10-01-10-10.church:8000/stream" type="audio/mpeg">
+          <source src="http://10-10-01-10-10.church:8000/test-stream" type="audio/mpeg">
           </source>
         </audio>
       </div>
