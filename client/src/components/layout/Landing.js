@@ -24,7 +24,7 @@ class Landing extends Component {
                     borderRadius: "3px",
                     letterSpacing: "1.5px"
                   }}
-                  className="btn btn-large waves-effect waves-light hoverable black accent-3"
+                  className="btn btn-large waves-effect waves-light hoverable grey accent-3"
                 >
                   Convert
                 </Link>
@@ -37,7 +37,7 @@ class Landing extends Component {
                     borderRadius: "3px",
                     letterSpacing: "1.5px"
                   }}
-                  className="btn btn-large waves-effect hoverable churchy-yellow black-text"
+                  className="btn btn-large waves-effect hoverable churchy-yellow grey-text text-darken-3"
                 >
                   Pray
                 </Link>
