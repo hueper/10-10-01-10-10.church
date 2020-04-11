@@ -11,6 +11,7 @@ import Navbar from "./components/layout/Navbar";
 import Landing from "./components/layout/Landing";
 import Register from "./components/auth/Register";
 import Login from "./components/auth/Login";
+import See from "./components/see/See.js";
 import PrivateRoute from "./components/private-route/PrivateRoute";
 import Nave from "./components/nave/Nave";
 
@@ -45,6 +46,7 @@ class App extends Component {
             <Route exact path="/" component={Landing} />
             <Route exact path="/register" component={Register} />
             <Route exact path="/login" component={Login} />
+            <Route exact path="/see" component={See} />
             <Switch>
               <PrivateRoute exact path="/nave" component={Nave} />
             </Switch>

@@ -42,6 +42,22 @@ class Landing extends Component {
                   Pray
                 </Link>
               </div>
+              <div className="col s12">
+                <p className="flow-text grey-text text-darken-1">
+                  <Link
+                    to="/see"
+                    style={{
+                      width: "140px",
+                      borderRadius: "3px",
+                      letterSpacing: "1.5px",
+                      fontSize: "1rem"
+                    }}
+                    className="flow-text black-text"
+                  >
+                    ?
+                  </Link>
+                </p>
+              </div>
             </div>
           </div>
         </div>

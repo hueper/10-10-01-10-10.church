@@ -14,13 +14,25 @@ class Nave extends Component {
     const { user } = this.props.auth;
 
     return (
-      <div style={{ height: "80vh" }} className="container valign-wrapper">
+      <div style={{ height: "120vh" }} className="container valign-wrapper">
         <div className="row">
           <div className="landing-copy col s12 center-align">
             <h4>
               <b>Bless You,</b> {user.name.split(" ")[0]}
-              <p className="flow-text grey-text text-darken-1">
-                The next service will take place on Sunday, April 12 at 2 pm.
+              <p
+                className="flow-text grey-text text-darken-1"
+                style={{fontSize: "1rem"}}>
+                <b>Taufe 14:00</b><br/>
+                <i>+-SWEET</i> & <i>DEXTRO</i><br/>
+
+                <b>Reinkarnation 14:30</b><br/>
+                <i>+-SWEET</i><br/>
+
+                <b>Salbung 16:00</b><br/>
+                <i>DEXTRO</i><br/>
+
+                <b>Finale Weihe mit Open End 17:30</b><br/>
+                <i>DEXTRO</i> & <i>+-SWEET</i>
               </p>
             </h4>
             <Altar />
