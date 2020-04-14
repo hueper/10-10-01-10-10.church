@@ -3,7 +3,7 @@
 
 Website of 10-10-01-10-10.church. Streaming Churchy.
 
-![Final App](https://postimg.cc/30ThgQG1)
+[![churchy-screenshot.png](https://i.postimg.cc/GtBpnchW/churchy-screenshot.png)](https://postimg.cc/30ThgQG1)
 
 This project uses the great MERN (+ Redux) user authentication boilerplate with Passport.js and JWT by Rishi Prasad: https://github.com/rishipr/mern-auth
 
