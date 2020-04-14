@@ -9,6 +9,7 @@ import store from "./store";
 
 import Navbar from "./components/layout/Navbar";
 import Landing from "./components/layout/Landing";
+import Flag from "./components/flag/Flag";
 import Register from "./components/auth/Register";
 import Login from "./components/auth/Login";
 import See from "./components/see/See.js";
@@ -42,8 +43,7 @@ class App extends Component {
       <Provider store={store}>
         <Router>
           <div className="App">
-            <Navbar />
-            <Route exact path="/" component={Landing} />
+            <Route exact path="/" component={Flag} />
             <Route exact path="/register" component={Register} />
             <Route exact path="/login" component={Login} />
             <Route exact path="/see" component={See} />
